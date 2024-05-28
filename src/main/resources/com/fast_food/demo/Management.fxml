@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="1000.0" prefWidth="1600.0" stylesheets="@../../../css/managementStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fast_food.demo.ManagementController">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="57.0" prefWidth="1570.0" spacing="13.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-header" text="Chào mừng" />
+            <Text fx:id="text_name" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-header" text="\$ten_nguoi" />
+            <VBox fx:id="button_logout" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="button_submit">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Đăng xuất">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                     </VBox.margin>
+                  </Text>
+               </children>
+            </VBox>
+            <Pane prefHeight="36.0" prefWidth="1045.0" />
+            <VBox fx:id="button_backtoquanly" alignment="CENTER" prefHeight="36.0" prefWidth="79.0" styleClass="background-ingredient">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="X">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                     </VBox.margin>
+                  </Text>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <VBox fx:id="scene_root" alignment="CENTER" prefHeight="996.0" prefWidth="1600.0" spacing="50.0">
+         <children>
+            <VBox fx:id="control_menu" spacing="20.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="258.0" prefWidth="1600.0" spacing="50.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="0.0" prefWidth="1570.0" spacing="20.0">
+                           <children>
+                              <VBox fx:id="employees" alignment="TOP_CENTER" prefHeight="197.0" prefWidth="250.0" styleClass="background-employee">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/boy-dynamic-color.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Quản lý nhân viên">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                              <VBox fx:id="orders" alignment="TOP_CENTER" prefHeight="285.0" prefWidth="250.0" styleClass="background-order">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/bag-dynamic-color.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Quản lý đơn hàng">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                              <VBox fx:id="menu" alignment="TOP_CENTER" prefHeight="285.0" prefWidth="250.0" styleClass="background-order">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" style="-fx: 2;">
+                                       <image>
+                                          <Image url="@../../../images/Burger_Final.png" />
+                                       </image>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Quản lý thực đơn">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                              <VBox fx:id="ingredient" alignment="TOP_CENTER" prefHeight="285.0" prefWidth="250.0" styleClass="background-ingredient">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" style="-fx: 2;">
+                                       <image>
+                                          <Image url="@../../../images/link-dynamic-gradient.png" />
+                                       </image>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Quản lý nguyên liệu">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                              <VBox fx:id="dashboard" alignment="TOP_CENTER" prefHeight="285.0" prefWidth="250.0" styleClass="background-unknow">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 0.9; -fx-scale-y: 0.9;">
+                                       <image>
+                                          <Image url="@../../../images/computer-dynamic-gradient.png" />
+                                       </image>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Màn hình chọn món">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="control_menu1" alignment="CENTER" prefHeight="258.0" prefWidth="1600.0" spacing="50.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="0.0" prefWidth="1570.0" spacing="20.0">
+                           <children>
+                              <VBox fx:id="voucher" alignment="TOP_CENTER" prefHeight="197.0" prefWidth="250.0" styleClass="background-employee">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/star-dynamic-color.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Quản lý voucher">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                              <VBox fx:id="supplier" alignment="TOP_CENTER" prefHeight="285.0" prefWidth="250.0" styleClass="background-order">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 0.9; -fx-scale-y: 0.9;">
+                                       <image>
+                                          <Image url="@../../../images/flash-dynamic-color.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Quản lý NCC">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                              <VBox fx:id="changepassword" alignment="TOP_CENTER" prefHeight="285.0" prefWidth="250.0" styleClass="background-order">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 0.9; -fx-scale-y: 0.9;">
+                                       <image>
+                                          <Image url="@../../../images/puzzle-dynamic-color.png" />
+                                       </image>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Đặt lại mật khẩu">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                              <VBox fx:id="ingredient1" alignment="TOP_CENTER" prefHeight="285.0" prefWidth="250.0" styleClass="background-ingredient">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 0.9; -fx-scale-y: 0.9;">
+                                       <image>
+                                          <Image url="@../../../images/file-fav-dynamic-color.png" />
+                                       </image>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Yêu cầu nhập NL">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                              <VBox fx:id="ingredient11" alignment="TOP_CENTER" prefHeight="285.0" prefWidth="250.0" styleClass="background-unknow">
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" style="-fx: 2;">
+                                       <image>
+                                          <Image url="@../../../images/chart-dynamic-color.png" />
+                                       </image>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Báo cáo">
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>

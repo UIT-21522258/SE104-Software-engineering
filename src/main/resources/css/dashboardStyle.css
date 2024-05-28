@@ -1,0 +1,195 @@
+.button-style {
+  -fx-background-color: #d4d4d4;
+  -fx-background-radius: 100;
+}
+
+.button-delete {
+
+  -fx-border-color: #e11d48;
+    -fx-border-width: 2px;
+    -fx-border-radius: 100;
+
+}
+
+.text-button{
+
+  -fx-font-family: "Montserrat";
+  -fx-font-size: 18px;
+  -fx-font-weight: bold;
+
+}
+
+.button-add {
+
+
+  -fx-border-color: #4f46e5;
+    -fx-border-width: 2px;
+    -fx-border-radius: 100;
+}
+
+.button-style-1 {
+  -fx-background-color: #2563eb;
+  -fx-background-radius: 100;
+}
+
+.button-style-2 {
+  -fx-background-color: #dbeafe;
+  -fx-background-radius: 100;
+}
+
+.ImageView {
+  -fx-background-radius: 10 10 10 10;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.text-field-style {
+  -fx-border-color: #2563eb;
+  -fx-border-width: 2px;
+  -fx-border-radius: 100;
+  -fx-border-style: solid;
+  -fx-font-family: "Montserrat";
+  -fx-font-size: 18px;
+  -fx-font-weight: bold;
+}
+
+.text-decor {
+  -fx-font-family: "Montserrat";
+  -fx-font-size: 25;
+  -fx-font-weight: bold;
+}
+
+.background_black {
+  -fx-background-color: #00000010;
+}
+
+.background_white {
+  -fx-background-color: #dbdbdbae;
+  -fx-background-radius: 20;
+}
+.border_bottom_dashed {
+  -fx-border-style: dashed;
+  -fx-border-width: 0 0 1 0;
+  -fx-border-color: black;
+  -fx-border-insets: 0;
+}
+
+.my-border-bottom {
+  -fx-border-color: rgb(227, 227, 227);
+  -fx-border-width: 0 0 1 0;
+}
+
+.background_menu_item {
+    -fx-background-color: white;
+    -fx-border-color: orange;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20;
+    -fx-background-radius: 100;
+}
+
+.table_food {
+  -fx-font-family: "Montserrat";
+  -fx-font-size: 13pt;
+  -fx-background-color: transparent;
+}
+
+.table_food .column-header {
+  -fx-font-size: 12pt;
+  -fx-font-weight: bold;
+  -fx-background-color: #ffffff;
+}
+
+.table_food .table-row-cell {
+  -fx-alignment: center;
+}
+
+.table_food .column-header-background .text-field {
+  -fx-background-color: #f2f2f2;
+  -fx-background-radius: 5px;
+  -fx-border-radius: 5px;
+  -fx-border-color: #ccc;
+}
+
+.table_food .scroll-bar:vertical {
+  -fx-background-insets: -1;
+}
+
+.table_food .scroll-bar:horizontal {
+  -fx-background-insets: -1;
+}
+
+.table_food .table-cell {
+  -fx-border-color: #ccc;
+  -fx-border-width: 0px;
+}
+
+.table_food .header {
+  -fx-background-color: #87ceeb;
+  -fx-background-insets: 0, 1, 2;
+  -fx-opacity: 1;
+}
+
+.table_food .header .label {
+  -fx-text-fill: white;
+}
+
+.table_food .table-row-cell:selected .table-cell {
+  -fx-text-fill: #de8a96;
+  -fx-background-color: #fff;
+}
+
+/* Chỉnh giữa cột */
+.table_food .table-cell {
+  -fx-alignment: center;
+}
+
+/* Tăng khoảng cách giữa các hàng */
+.table_food .table-row-cell {
+  -fx-padding: 0px;
+}
+
+/* Background trong suốt */
+.table_food {
+  -fx-background-color: transparent;
+}
+
+.date-picker {
+    -fx-background-color: transparent;
+    -fx-border-color: #2563eb;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 5px;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: transparent;
+    -fx-pref-width: 30px; /* Kích thước rộng */
+    -fx-pref-height: 30px; /* Kích thước cao */
+}
+
+.date-picker .text-field {
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: #999999;
+}
+
+.date-picker .popup-content {
+    -fx-background-color: #ffffff;
+}
+
+.date-picker .calendar-date-cell {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+
+.date-picker .calendar-date-cell:hover {
+    -fx-background-color: #eeeeee;
+}
+
+.date-picker .calendar-date-cell:selected {
+    -fx-background-color: #007bff;
+    -fx-text-fill: #ffffff;
+}
+

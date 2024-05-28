@@ -1,0 +1,60 @@
+
+a	java:S112Ò"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112ö"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+x
+java:S1192"]Define a constant instead of duplicating this literal "Vui lÃ²ng Ä‘iá»n thÃ´ng tin" 7 times.(Ô¯ûìûÿÿÿÿ
+\
+java:S1192s"GDefine a constant instead of duplicating this literal "ADD_NL" 3 times.(Îön
+l	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èëöƒûÿÿÿÿ
+l	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±”Ùÿÿÿÿÿ
+l	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‘§ÿÿÿÿÿ
+l	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èëöƒûÿÿÿÿ
+l	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‘§ÿÿÿÿÿ
+l	java:S117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£şï‚ûÿÿÿÿ
+e
+java:S1104s"PMake mode a static final constant or non-public and provide accessors if needed.(Îön
+n	java:S116"YRename this field "button_chonanh" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÊ›
+m	java:S116""YRename this field "button_hoantat" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åö3
+z	java:S116%"`Rename this field "button_themnguyenlieu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™²ßÔşÿÿÿÿ
+p	java:S116)"[Rename this field "textfield_xoa_nl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çƒÿ
+n	java:S116,"YRename this field "choicebox_loai" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³•¬í
+|	java:S116/"bRename this field "choicebox_tennguyenlieu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şê‘Äüÿÿÿÿ
+i	java:S1162"URename this field "label_mode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º©ù
+v	java:S1165"\Rename this field "table_nguyen_lieu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îŒ¹Úÿÿÿÿÿ
+s	java:S1168"YRename this field "tablecolumn_dv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íßæàûÿÿÿÿ
+u	java:S116;"[Rename this field "tablecolumn_slnl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Çùÿÿÿÿ
+q	java:S116>"\Rename this field "tablecolumn_tennl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ÑõË
+s	java:S116A"YRename this field "text_field_gia" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ÷á›ùÿÿÿÿ
+o	java:S116D"ZRename this field "textfield_donvi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õàØİ
+s	java:S116G"YRename this field "textfield_mota" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ƒâÍÿÿÿÿÿ
+q	java:S116J"\Rename this field "textfield_soluong" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÖ
+u	java:S116M"[Rename this field "textfield_tenmon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—èç¡üÿÿÿÿ
+y	java:S116Q"dRename this field "texterror_validator_donvi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äæÄş
+|	java:S116T"bRename this field "texterror_validator_gia" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç°™øÿÿÿÿ
+}	java:S116W"cRename this field "texterror_validator_loai" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü”¿«şÿÿÿÿ
+}	java:S116Z"cRename this field "texterror_validator_mota" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚´Ä«şÿÿÿÿ
+v	java:S116]"aRename this field "texterror_validator_sl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©“–ï
+	java:S116`"eRename this field "texterror_validator_tenmon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÌ±òüÿÿÿÿ
+|	java:S116c"bRename this field "label_them_chinh_sua_nl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á‚øÔøÿÿÿÿ
+y	java:S116f"dRename this field "texterror_validator_tennl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÄ¼ƒ
+h	java:S100{"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ş¨Äúÿÿÿÿ
+[
+java:S3358‚"DExtract this nested ternary operation into an independent statement.(Ş“¯Ö
+d	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åŒÈ¶
+`
+java:S3358’"DExtract this nested ternary operation into an independent statement.(şÀ«úÿÿÿÿ
+i	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı±µçıÿÿÿÿ
+Z
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(»®¿æıÿÿÿÿ
+n
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(»®¿æıÿÿÿÿ
+n
+java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(•‘İŸüÿÿÿÿ
+C
+java:S1602Ã",Remove useless curly braces around statement(ÃÉş©
+T	java:S106ä"9Replace this use of System.out or System.err by a logger.(–ƒ–şÿÿÿÿÿ
+O	java:S106å"9Replace this use of System.out or System.err by a logger.(ë¼×ğ
+N	java:S106£"9Replace this use of System.out or System.err by a logger.(ò“•d
+T	java:S106¹"9Replace this use of System.out or System.err by a logger.(­×§¼ûÿÿÿÿ
+F
+java:S1481Õ"*Remove this unused "monAn" local variable.(×­øıÿÿÿÿ

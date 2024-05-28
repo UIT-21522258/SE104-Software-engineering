@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox fx:id="wrapper" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="370.0" stylesheets="@../../../css/dashboardStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fast_food.demo.OrderItemOnDashboardController">
+   <children>
+      <ImageView fx:id="image" fitHeight="53.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" styleClass="my-image">
+         <HBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </HBox.margin>
+         <image>
+            <Image url="@../../../images/heart-dynamic-gradient.png" />
+         </image>
+      </ImageView>
+      <VBox prefHeight="74.0" prefWidth="294.0">
+         <children>
+            <HBox>
+               <children>
+                  <Label fx:id="name" prefHeight="42.0" prefWidth="232.0" style="-fx-font-size: 17px; -fx-font-weight: bold;" stylesheets="@../../../css/managementStyle.css" text="MONAN" />
+                  <HBox>
+                     <children>
+                        <HBox fx:id="bt_delete" alignment="CENTER" prefHeight="30.0" prefWidth="44.0" style="-fx-scale-x: 0.5; -fx-scale-y: 0.5;" styleClass="button_orange" stylesheets="@../../../css/managementStyle.css">
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="16.0" styleClass="text-header" stylesheets="@../../../css/managementStyle.css" text="X" textFill="WHITE" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="242.0" spacing="10.0">
+               <children>
+                  <HBox fx:id="increase" alignment="CENTER" prefHeight="33.0" prefWidth="33.0" styleClass="button-style-1">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="button-style-1" text="+" textAlignment="CENTER" wrappingWidth="18.760000228881836">
+                           <font>
+                              <Font name="Montserrat ExtraLight" size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <Text fx:id="count" strokeType="OUTSIDE" strokeWidth="0.0" text="1" textAlignment="CENTER" wrappingWidth="32.519999980926514">
+                     <font>
+                        <Font name="Montserrat Black" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <HBox fx:id="decrease" alignment="CENTER" prefHeight="33.0" prefWidth="31.0" styleClass="button-style-2">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="button-style-2" text="-" wrappingWidth="8.690000057220459">
+                           <font>
+                              <Font name="Montserrat ExtraLight" size="25.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <Text fx:id="price" strokeType="OUTSIDE" strokeWidth="0.0" text="\$250.00" textAlignment="CENTER" wrappingWidth="124.63671875">
+                     <font>
+                        <Font name="Montserrat Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </VBox>
+   </children>
+   <styleClass>
+      <String fx:value="my-border-bottom" />
+      <String fx:value="background_white" />
+   </styleClass>
+</HBox>

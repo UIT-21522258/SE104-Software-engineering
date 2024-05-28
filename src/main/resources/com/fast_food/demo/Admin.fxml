@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fast_food.demo.AdminController">
+   <content>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1600.0" styleClass="bg-white">
+         <children>
+            <HBox prefHeight="466.0" prefWidth="1600.0">
+               <children>
+                  <VBox prefHeight="446.0" prefWidth="1207.0" styleClass="bg-white-upper">
+                     <children>
+                        <Text fill="#b5b5b5" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-header" text="Doanh Thu">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="X">
+                           <font>
+                              <Font name="Montserrat Regular" size="27.0" />
+                           </font>
+                        </Text>
+                        <HBox prefHeight="405.0" prefWidth="747.0">
+                           <children>
+                              <LineChart fx:id="chart_doanh_thu" prefHeight="346.0" prefWidth="1169.0" styleClass="whitebg">
+                                <xAxis>
+                                  <CategoryAxis side="BOTTOM" />
+                                </xAxis>
+                                <yAxis>
+                                  <NumberAxis side="LEFT" />
+                                </yAxis>
+                              </LineChart>
+                           </children>
+                        </HBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="466.0" prefWidth="359.0" styleClass="bg-white-upper">
+                     <HBox.margin>
+                        <Insets bottom="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                     <children>
+                        <Label styleClass="text-normal" text="Tổng Chi">
+                           <font>
+                              <Font size="44.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="BOTTOM_LEFT" spacing="10.0">
+                           <children>
+                              <Label fx:id="label_tong_chi" styleClass="text-header-1" text="\$123234">
+                                 <font>
+                                    <Font name="Montserrat ExtraBold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="137.0">
+                                 <children>
+                                    <ImageView fx:id="Image_chi" fitHeight="15.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/decrease.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="P_chi" styleClass="text-field" text="10%" textFill="RED">
+                                       <padding>
+                                          <Insets left="5.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <LineChart fx:id="chart_doanh_thu_thang" prefHeight="224.0" prefWidth="306.0" styleClass="no-axes">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                        </LineChart>
+                        <HBox prefHeight="61.0" prefWidth="306.0" spacing="40.0">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="68.0" prefWidth="158.0" styleClass="border-bottom-thu">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-field" text="THU" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="68.0" prefWidth="158.0" spacing="10.0" styleClass="border-bottom-chi">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-field" text="CHI" />
+                                 </children>
+                              </HBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Label styleClass="text-normal" text="Tổng Thu">
+                           <font>
+                              <Font size="44.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="BOTTOM_LEFT" spacing="10.0">
+                           <children>
+                              <Label fx:id="label_tong_thu" styleClass="text-header-1" text="\$47567" />
+                              <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="137.0">
+                                 <children>
+                                    <ImageView fx:id="Image_thu" fitHeight="15.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/increase.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="P_thu" styleClass="text-field" text="10%" textFill="#26d00f">
+                                       <padding>
+                                          <Insets left="5.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="311.0" prefWidth="1600.0">
+               <children>
+                  <VBox prefHeight="278.0" prefWidth="419.0" styleClass="bg-white-upper">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <children>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <Label prefHeight="38.0" prefWidth="132.0" style="-fx-pref-width: -1;" styleClass="text-header" text="Top">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                              <TextField fx:id="num_best_seller_show" alignment="CENTER" prefHeight="40.0" prefWidth="35.0" style="-fx-background-color: transparent;" styleClass="text-header" text="10">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </TextField>
+                              <Label layoutX="10.0" layoutY="10.0" prefHeight="38.0" prefWidth="272.0" styleClass="text-header" text="Món Ăn Bán Chạy Nhất">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <ScrollPane>
+                           <content>
+                              <VBox fx:id="vbox_top_seller_layout" prefHeight="226.0" prefWidth="379.0" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="278.0" prefWidth="1149.0" styleClass="bg-white-upper">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                     </HBox.margin>
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label styleClass="text-header" text="Tổng số đơn hàng" />
+                           </children>
+                        </HBox>
+                        <BarChart fx:id="chart_tong_so_don_hang" styleClass="whitebg">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                        </BarChart>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="311.0" prefWidth="1600.0">
+               <children>
+                  <VBox prefHeight="275.0" prefWidth="687.0" styleClass="bg-white-upper">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <children>
+                        <ScrollPane>
+                           <content>
+                              <VBox fx:id="vbox_top_seller_layout1" prefHeight="221.0" prefWidth="645.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-header" text="Báo cáo năng suất nhân viên">
+                                       <VBox.margin>
+                                          <Insets bottom="5.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                    <ScrollPane>
+                                       <content>
+                                          <TableView fx:id="table_productivity" prefHeight="200.0" prefWidth="646.0" styleClass="table_order">
+                                            <columns>
+                                              <TableColumn fx:id="tablecolumn_id_nsnv" prefWidth="75.0" text="ID" />
+                                              <TableColumn fx:id="tablecolumn_ten_nsnv" prefWidth="89.0" text="Tên" />
+                                                <TableColumn fx:id="tablecolumn_htrenthang" prefWidth="204.0" text="Năng suất (h/tháng)" />
+                                            </columns>
+                                             <columnResizePolicy>
+                                                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                             </columnResizePolicy>
+                                          </TableView>
+                                       </content>
+                                    </ScrollPane>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <stylesheets>
+            <URL value="@../../../css/managementStyle.css" />
+            <URL value="@../../../css/Admin.css" />
+         </stylesheets>
+      </VBox>
+   </content>
+</ScrollPane>

@@ -1,0 +1,67 @@
+
+`	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112x"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112Ç"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112Ô"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112â"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112ò"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112€"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112¯"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+F
+java:S3740‡"/Provide the parametrized type for this generic.(õë–ó
+F
+java:S3740‡"/Provide the parametrized type for this generic.(õë–ó
+F
+java:S3740’"/Provide the parametrized type for this generic.(íÕ¸
+F
+java:S3740Á"/Provide the parametrized type for this generic.(’˜“ù
+K
+java:S3740Ì"/Provide the parametrized type for this generic.(„ÿ÷Øøÿÿÿÿ
+F
+java:S3740Ö"/Provide the parametrized type for this generic.(¤—ùë
+K
+java:S3740Ú"/Provide the parametrized type for this generic.(ˆÌ¦Óûÿÿÿÿ
+K
+java:S3740©"/Provide the parametrized type for this generic.(Èêá‘øÿÿÿÿ
+K
+java:S3740©"/Provide the parametrized type for this generic.(Èêá‘øÿÿÿÿ
+K
+java:S3740´"/Provide the parametrized type for this generic.(Ü¾Õ”úÿÿÿÿ
+P
+java:S1141l"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’˜“ù
+g	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤—ùë
+e	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç‰
+l	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÌª½şÿÿÿÿ
+l	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èêá‘øÿÿÿÿ
+o	java:S116""ZRename this field "chart_doanh_thu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÏâÓ
+u	java:S116%"`Rename this field "chart_doanh_thu_thang" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßš·Û
+v	java:S116("aRename this field "chart_tong_so_don_hang" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²¼¿
+t	java:S116+"_Rename this field "num_best_seller_show" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¯š¡
+{	java:S116."aRename this field "vbox_top_seller_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ³ Àùÿÿÿÿ
+n	java:S1160"YRename this field "label_tong_thu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ô‘Ø
+m	java:S1162"YRename this field "label_tong_chi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¢´
+{	java:S1164"aRename this field "tablecolumn_htrenthang" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï—áùÿÿÿÿ
+r	java:S1167"^Rename this field "tablecolumn_id_nsnv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úØî^
+t	java:S116:"_Rename this field "tablecolumn_ten_nsnv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¼š¶
+q	java:S116<"]Rename this field "table_productivity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•®°'
+e	java:S116>"PRename this field "P_thu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áôèÿ
+e	java:S116@"PRename this field "P_chi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÁ³
+i	java:S116B"TRename this field "Image_thu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¨ÂÜ
+n	java:S116D"TRename this field "Image_chi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÇÄ«ùÿÿÿÿ
+o
+java:S1210^"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ë‡Èğ
+c	java:S100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–·ú
+m
+java:S3776}"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(•‘İŸüÿÿÿÿ
+`
+java:S1854˜"DRemove this useless assignment to local variable "productivityList".(‚³ÆÛûÿÿÿÿ
+@
+java:S1659İ")Declare "tongChiLast" on a separate line.(çöß½
+?
+java:S1659ä"(Declare "percentChi" on a separate line.(ûÕíş
+Q
+java:S1481˜"5Remove this unused "productivityList" local variable.(‚³ÆÛûÿÿÿÿ
+D
+java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw

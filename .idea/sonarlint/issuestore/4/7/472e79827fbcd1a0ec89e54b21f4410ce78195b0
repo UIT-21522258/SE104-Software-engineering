@@ -1,0 +1,34 @@
+
+a	java:S112À"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+a	java:S112Ð"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+a	java:S112á"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+a	java:S112ð"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+a	java:S112ˆ"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+a	java:S112œ"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+a	java:S112«"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+a	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+a	java:S112É"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+a	java:S112è"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+g	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ì²í
+g	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÄÆ§
+g	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ì²í
+g	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ì²í
+g	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ì²í
+g	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ì²í
+g	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ì²í
+q	java:S116#"WRename this field "control_menu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦‡Ý™ùÿÿÿÿ
+r	java:S116&"XRename this field "control_menu1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò®Ö«ûÿÿÿÿ
+j	java:S116>"URename this field "scene_root" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å Š®
+n	java:S116D"TRename this field "text_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íêˆ©þÿÿÿÿ
+m	java:S116J"XRename this field "button_logout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í˜½¶
+s	java:S116M"^Rename this field "button_backtoquanly" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÏŸÕ
+M
+java:S1117`"7Rename "uf" which hides the field declared at line 153.(ŒÞ¤è
+n
+java:S3776¤"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(•‘ÝŸüÿÿÿÿ
+L
+java:S1128"6Remove this unused import 'javafx.event.EventHandler'.(º»û˜
+K
+java:S1128"0Remove this unused import 'javafx.geometry.Pos'.(ÌÆ÷Ùøÿÿÿÿ
+U
+java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ

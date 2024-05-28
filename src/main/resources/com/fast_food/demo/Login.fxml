@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1600.0" style="-fx-background-color: white;" stylesheets="@../../../css/managementStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fast_food.demo.LoginController">
+   <children>
+      <VBox prefHeight="1000.0" prefWidth="660.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="255.0" prefWidth="575.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome back">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="44.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/tick-dynamic-gradient.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Pane prefHeight="102.0" prefWidth="575.0" />
+            <Label style="-fx-font-weight: bold;" styleClass="text-normal" text="Username">
+               <padding>
+                  <Insets bottom="5.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="tf_username" promptText="username" styleClass="text_field_form_employee">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <Text fx:id="t_error_username" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="Vui lòng điền đầy đủ thông tin">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Text>
+            <Label style="-fx-font-weight: bold;" styleClass="text-normal" text="Password">
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </Label>
+            <PasswordField fx:id="tf_password" promptText="password" styleClass="text_field_form_employee" />
+            <Text fx:id="t_error_password" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="Vui lòng điền đầy đủ thông tin">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Text>
+            <HBox fx:id="button_login" alignment="CENTER" prefHeight="50.0" prefWidth="650.0" styleClass="button_submit">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-header" text="Login to account">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <ImageView fitHeight="37.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/star-dynamic-gradient.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="85.0" fitWidth="101.0">
+                     <image>
+                        <Image url="@../../../images/469679fb1f660b9a3b14540e00660ef5.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <HBox.margin>
+            <Insets left="75.0" right="75.0" />
+         </HBox.margin>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="1000.0" prefWidth="960.0">
+         <children>
+            <ImageView fitHeight="998.0" fitWidth="1002.0">
+               <image>
+                  <Image url="@../../../images/banner.png" />
+               </image>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</HBox>

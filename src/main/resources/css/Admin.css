@@ -1,0 +1,76 @@
+.default-color0.chart-line-symbol { /* first series */
+    -fx-background-color: #e9967a, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+}
+.default-color0.chart-series-line { /* first series */
+    -fx-stroke: red;
+}
+
+.default-color1.chart-line-symbol { /* second series */
+    -fx-background-color: #f0e68c, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+}
+.default-color1.chart-series-line {
+    -fx-stroke: red; /* Custom color for the second series */
+}
+
+.whitebg .chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.axis {
+    -fx-tick-label-font-size: 1.5em; /* Change the font size of axis labels */
+}
+
+.axis .axis-label {
+    -fx-font-size: 2em; /* Change the font size of axis title */
+}
+
+.bg-white{
+    -fx-background-color: #E0E3E8;
+}
+
+.bg-white-upper{
+    -fx-background-color: #f6f6f6;
+    -fx-background-radius: 20;
+    -fx-padding:20;
+
+}
+
+.no-axes .chart-horizontal-grid-lines,
+.no-axes .chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.no-axes .chart-content {
+    -fx-background-color: transparent;
+}
+
+.no-axes .chart-plot-background {
+    -fx-background-color: transparent;
+}
+.no-axes .axis,
+.no-axes .axis-label {
+    -fx-tick-labels-visible: false;
+    -fx-tick-mark-visible: false;
+}
+
+.no-axes .chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+
+.no-axes .chart-vertical-grid-lines > .chart-line {
+    -fx-stroke: transparent;
+}
+
+.no-axes .chart-horizontal-grid-lines > .chart-line {
+    -fx-stroke: transparent;
+}
+
+.no-axes .chart-horizontal-zero-line {
+    -fx-stroke: transparent;
+}
+

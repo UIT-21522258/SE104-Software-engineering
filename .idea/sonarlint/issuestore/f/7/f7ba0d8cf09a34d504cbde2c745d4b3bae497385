@@ -1,0 +1,34 @@
+
+k	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðéÝäþÿÿÿÿ
+k	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðéÝäþÿÿÿÿ
+k	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðéÝäþÿÿÿÿ
+k	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðéÝäþÿÿÿÿ
+s
+java:S11048"XMake count_number a static final constant or non-public and provide accessors if needed.(ÞŠ£ãúÿÿÿÿ
+g
+java:S1104:"QMake name_ a static final constant or non-public and provide accessors if needed.(¸‹’“
+h
+java:S1104;"RMake price_ a static final constant or non-public and provide accessors if needed.(ãžå±
+m
+java:S1104<"RMake image_ a static final constant or non-public and provide accessors if needed.(Ž£†Ëüÿÿÿÿ
+n	java:S1162"TRename this field "bt_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø«Éùÿÿÿÿ
+q	java:S1168"WRename this field "count_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÞŠ£ãúÿÿÿÿ
+e	java:S116:"PRename this field "name_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸‹’“
+f	java:S116;"QRename this field "price_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãžå±
+k	java:S116<"QRename this field "image_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ž£†Ëüÿÿÿÿ
+G
+java:S1602c",Remove useless curly braces around statement(ß´Ãùÿÿÿÿ
+G
+java:S1602f",Remove useless curly braces around statement(‘ÃæÌÿÿÿÿÿ
+B
+java:S1602i",Remove useless curly braces around statement(Ù•éó
+^
+java:S1128"HRemove this unused import 'javafx.beans.property.SimpleIntegerProperty'.(©Úž¡
+E
+java:S1128"/Remove this unused import 'javafx.event.Event'.(ô”áñ
+L
+java:S1128"6Remove this unused import 'javafx.event.EventHandler'.(º»û˜
+C
+java:S1128"(Remove this unused import 'model.Order'.(¦È¸ôûÿÿÿÿ
+O
+java:S1128"4Remove this unused import 'javafx.beans.Observable'.(žæ ûÿÿÿÿ

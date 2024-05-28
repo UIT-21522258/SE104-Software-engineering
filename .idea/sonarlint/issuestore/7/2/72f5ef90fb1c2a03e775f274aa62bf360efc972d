@@ -1,0 +1,334 @@
+
+h	java:S112Ì"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ø›1
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ø›1
+h	java:S112¯"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ø›1
+h	java:S112â"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ø›1
+|
+java:S2293İ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ë½Ûıÿÿÿÿ8‘Ø›1
+|
+java:S2293î"YReplace the type specification in this constructor call with the diamond operator ("<>").(ë½Ûıÿÿÿÿ8‘Ø›1
+|
+java:S2293­"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÊÎ«øùÿÿÿÿ8’Ø›1
+i
+java:S1192”"FDefine a constant instead of duplicating this literal "MO_TA" 4 times.(Á¦öŒøÿÿÿÿ8“Ø›1
+h
+java:S1192)"FDefine a constant instead of duplicating this literal "LUONG" 3 times.(¶Ù¡øÿÿÿÿ8“Ø›1
+k
+java:S1192“"HDefine a constant instead of duplicating this literal "TEN_MON" 5 times.(âèíşúÿÿÿÿ8“Ø›1
+c
+java:S1192Ö"FDefine a constant instead of duplicating this literal "EMAIL" 3 times.(‚¿Í"8“Ø›1
+k
+java:S1192*"NDefine a constant instead of duplicating this literal "NGUOI_QUAN_LY" 3 times.(îœ´…8“Ø›1
+p
+java:S1192("NDefine a constant instead of duplicating this literal "SO_DIEN_THOAI" 6 times.(‰ŠÙÃşÿÿÿÿ8“Ø›1
+d
+java:S1192'"HDefine a constant instead of duplicating this literal "CHUC_VU" 4 times.(ÿß©8“Ø›1
+k
+java:S1192×"HDefine a constant instead of duplicating this literal "DIA_CHI" 3 times.(ã‹ÊÓùÿÿÿÿ8“Ø›1
+h
+java:S1192+"KDefine a constant instead of duplicating this literal "ID_QUAN_LY" 4 times.(¬İÆ‰8“Ø›1
+e
+java:S1192İ"GDefine a constant instead of duplicating this literal "DON_VI" 3 times.(°Ó×ë8“Ø›1
+
+java:S1192µ"^Define a constant instead of duplicating this literal "SELECT * FROM CHUONG_TRINH_KM" 3 times.(ÁÉÛ´üÿÿÿÿ8“Ø›1
+l
+java:S1192–"IDefine a constant instead of duplicating this literal "HINH_ANH" 3 times.(À¸Ò‘ÿÿÿÿÿ8“Ø›1
+M
+java:S1066´"/Merge this if statement with the enclosing one.(°†®È8•Ø›1
+
+java:S1319"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(•ë¥åüÿÿÿÿ8•Ø›1
+Š
+java:S13194"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(¹„Ì8•Ø›1
+
+java:S1319N"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(†­Ÿæıÿÿÿÿ8•Ø›1
+
+java:S1319i"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(×…­’ûÿÿÿÿ8•Ø›1
+‹
+java:S1319Š"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(ßÍáò8•Ø›1
+€
+java:S1319Ñ"bThe type of "xy" should be an interface such as "List" rather than the implementation "ArrayList".(¡µ¹ì8•Ø›1
+
+java:S1319Ú"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".( §ÑÏùÿÿÿÿ8•Ø›1
+‹
+java:S1319ë"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(Ö§’ñ8–Ø›1
+‹
+java:S1319ş"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(‘ñ‡İ8–Ø›1
+‹
+java:S1319¼"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(²½Ì¥8–Ø›1
+€
+java:S1319³"bThe type of "xy" should be an interface such as "List" rather than the implementation "ArrayList".(ªöî½8–Ø›1
+…
+java:S1319À"bThe type of "xy" should be an interface such as "List" rather than the implementation "ArrayList".(úİ¿øÿÿÿÿ8–Ø›1
+
+java:S1319¬"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŸùòÃ8–Ø›1
+l	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿß©8–Ø›1
+m	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îœ´…8–Ø›1
+m	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬İÆ‰8–Ø›1
+l	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿß©8–Ø›1
+m	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îœ´…8–Ø›1
+m	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬İÆ‰8–Ø›1
+r	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†­Ÿæıÿÿÿÿ8—Ø›1
+l	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿß©8—Ø›1
+m	java:S117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îœ´…8—Ø›1
+m	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬İÆ‰8—Ø›1
+n	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÍáò8—Ø›1
+s	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ûôµÿÿÿÿÿ8—Ø›1
+n	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êŒ¶ì8—Ø›1
+n	java:S117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äü—×8—Ø›1
+n	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¡ŞÒ8—Ø›1
+n	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¡ŞÒ8—Ø›1
+s	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‚¹Üüÿÿÿÿ8—Ø›1
+n	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú×úˆ8—Ø›1
+n	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëĞõÖ8—Ø›1
+n	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â“À8—Ø›1
+m	java:S117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÀP8—Ø›1
+n	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äü—×8—Ø›1
+n	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë†‡¼8—Ø›1
+n	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹â¬ö8—Ø›1
+m	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›™íz8—Ø›1
+s	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¹´‰ùÿÿÿÿ8—Ø›1
+s	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¤úÛúÿÿÿÿ8—Ø›1
+s	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¤úÛúÿÿÿÿ8—Ø›1
+s	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¤úÛúÿÿÿÿ8—Ø›1
+s	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¤úÛúÿÿÿÿ8—Ø›1
+s	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìï©­øÿÿÿÿ8—Ø›1
+s	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¶¢÷ûÿÿÿÿ8—Ø›1
+s	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¶¢÷ûÿÿÿÿ8—Ø›1
+s	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¬”´şÿÿÿÿ8—Ø›1
+s	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¬”´şÿÿÿÿ8—Ø›1
+s	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¬”´şÿÿÿÿ8—Ø›1
+s	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¬”´şÿÿÿÿ8—Ø›1
+m	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó× 18—Ø›1
+n	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©£½±8—Ø›1
+n	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îû§8—Ø›1
+n	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä“ï8—Ø›1
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰‘¨8—Ø›1
+s	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Éö­úÿÿÿÿ8—Ø›1
+s	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Éö­úÿÿÿÿ8—Ø›1
+s	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÎ«øùÿÿÿÿ8—Ø›1
+r
+java:S1104"PMake conn a static final constant or non-public and provide accessors if needed.(€ÙÄ§şÿÿÿÿ8™Ø›1
+‚
+java:S1104"`Make trang_thai_dang_nhap a static final constant or non-public and provide accessors if needed.(–ÁÌ¿ÿÿÿÿÿ8™Ø›1
+i
+java:S2095O"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+j
+java:S2095Ô"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ßŸØ›1
+r
+java:S2095–"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëÆ—üÿÿÿÿ8ŞŸØ›1
+m
+java:S2095¸"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(±§ù8ŞŸØ›1
+m
+java:S2095¡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(®Ø©ë8ŞŸØ›1
+m
+java:S2095÷"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ä×Óù8ŞŸØ›1
+e
+java:S2095ˆ"GUse try-with-resources or close this "Statement" in a "finally" clause.(›ºŞå8ŞŸØ›1
+r
+java:S2095±"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(º¬Ìûÿÿÿÿ8ŞŸØ›1
+m
+java:S2095½"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëÜÀé8ßŸØ›1
+m
+java:S2095°"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¹ÂŒ8ŞŸØ›1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+j
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+r
+java:S2095Ö"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(òÜıÿÿÿÿ8ŞŸØ›1
+r
+java:S2095Š"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¹®îÆúÿÿÿÿ8ŞŸØ›1
+m
+java:S2095Î"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëı›¿8ŞŸØ›1
+m
+java:S2095Æ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÚÎä¦8ŞŸØ›1
+m
+java:S2095Ì"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8ŞŸØ›1
+m
+java:S2095¬"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Çë¤”8ßŸØ›1
+m
+java:S2095µ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ü­³Ö8ŞŸØ›1
+r
+java:S2095ì"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¶àõƒûÿÿÿÿ8ßŸØ›1
+m
+java:S2095Ó"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ìä”¼8ßŸØ›1
+j
+java:S2095‹"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ßŸØ›1
+m
+java:S2095¤"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(åº³¦8ŞŸØ›1
+j
+java:S2095ÿ"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ßŸØ›1
+m
+java:S2095å"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8ŞŸØ›1
+m
+java:S2095î"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8ŞŸØ›1
+m
+java:S2095Ë"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Í÷©Æ8ßŸØ›1
+r
+java:S2095ñ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÌğìÙüÿÿÿÿ8ŞŸØ›1
+j
+java:S2095½"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+j
+java:S2095Û"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+j
+java:S2095š"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+r
+java:S2095Ü"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ÿ°Îğûÿÿÿÿ8ŞŸØ›1
+r
+java:S2095–"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(è˜Ëâúÿÿÿÿ8ŞŸØ›1
+r
+java:S2095¿"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÌ¶›ÿÿÿÿÿ8ßŸØ›1
+j
+java:S2095ë"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ßŸØ›1
+m
+java:S2095Ì"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8ŞŸØ›1
+m
+java:S2095Â"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ë¨ı¨8ŞŸØ›1
+r
+java:S2095È"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(œ—›§ûÿÿÿÿ8ßŸØ›1
+m
+java:S2095¡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8ßŸØ›1
+m
+java:S2095ª"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŸŠÙ8ßŸØ›1
+m
+java:S2095±"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Æ‹ïú8ŞŸØ›1
+j
+java:S2095Î"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+m
+java:S2095‚"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(±¿Ìî8ŞŸØ›1
+i
+java:S2095j"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+r
+java:S2095‹"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(à«ÿÚÿÿÿÿÿ8ŞŸØ›1
+m
+java:S2095‡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8ŞŸØ›1
+q
+java:S2095:"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(öÚ¥ùÿÿÿÿ8ßŸØ›1
+r
+java:S2095®"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(…ÅšÂıÿÿÿÿ8ßŸØ›1
+j
+java:S2095´"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(áìÑ‰øÿÿÿÿ8ŞŸØ›1
+r
+java:S2095”"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Äœ¢²øÿÿÿÿ8ßŸØ›1
+m
+java:S2095à"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ìä”¼8ŞŸØ›1
+r
+java:S2095Ò"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÖìËıÿÿÿÿ8ŞŸØ›1
+m
+java:S2095€"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¯–ü¶8ŞŸØ›1
+m
+java:S2095¥"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Õ¡Ê8ŞŸØ›1
+r
+java:S2095¥"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(—¨Ïòıÿÿÿÿ8ŞŸØ›1
+m
+java:S2095†"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Õ¡Ê8ßŸØ›1
+m
+java:S2095Û"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú›Ú8ŞŸØ›1
+m
+java:S2095ë"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŒÚ–î8ŞŸØ›1
+j
+java:S2095ì"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+j
+java:S2095‹"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+j
+java:S2095á"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ë«Æşûÿÿÿÿ8ßŸØ›1
+m
+java:S2095‡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(² ˜ó8ßŸØ›1
+r
+java:S2095ç"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(è˜Ëâúÿÿÿÿ8ŞŸØ›1
+r
+java:S2095–"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¼ÎÃêşÿÿÿÿ8ßŸØ›1
+m
+java:S2095Ä"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8ŞŸØ›1
+m
+java:S2095¢"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8ŞŸØ›1
+m
+java:S2095µ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(±±äï8ŞŸØ›1
+m
+java:S2095´"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¬£™±8ŞŸØ›1
+m
+java:S2095¡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Æ‹ïú8ßŸØ›1
+m
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(©ÓíÔ8ŞŸØ›1
+m
+java:S2095Ğ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Å¼œ8ßŸØ›1
+i
+java:S20955"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+m
+java:S2095½"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ÿ¬æƒ8ŞŸØ›1
+r
+java:S2095È"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(´¯˜´ùÿÿÿÿ8ŞŸØ›1
+e
+java:S2095ø"GUse try-with-resources or close this "Statement" in a "finally" clause.(›ºŞå8ŞŸØ›1
+q
+java:S2095T"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(öÚ¥ùÿÿÿÿ8ŞŸØ›1
+m
+java:S2095Ÿ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8ŞŸØ›1
+j
+java:S2095ÿ"GUse try-with-resources or close this "Statement" in a "finally" clause.(ªÃÇşÿÿÿÿ8ŞŸØ›1
+m
+java:S2095ü"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëÜÀé8ŞŸØ›1
+l
+java:S2095Ã"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¢›…U8ŞŸØ›1
+€	java:S116"_Rename this field "trang_thai_dang_nhap" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÁÌ¿ÿÿÿÿÿ8áŸØ›1
+_	java:S107Ù"=Method has 11 parameters, which is greater than 7 authorized.(®¤úÛúÿÿÿÿ8æŸØ›1
+^	java:S107œ"<Method has 8 parameters, which is greater than 7 authorized.(§¬”´şÿÿÿÿ8æŸØ›1
+J
+java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé8çŸØ›1
+S
+java:S6437"6Revoke and change this password, as it is compromised.(·¸³’8çŸØ›1
+U
+java:S6126È"2Replace this String concatenation with Text block.(´¯˜´ùÿÿÿÿ8õŸØ›1
+k	java:S100³"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îª»ë8şŸØ›1
+k	java:S100ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êŒ¶ì8… Ø›1
+k	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¡ŞÒ8† Ø›1
+k	java:S100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÔï§8‰ Ø›1
+k	java:S100¶"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì½®œ8Š Ø›1
+k	java:S100À"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú×úˆ8Š Ø›1
+p	java:S100Ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ø‡Ãúÿÿÿÿ8• Ø›1
+k	java:S100Ò"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èì–…8— Ø›1
+p	java:S100ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅµÙŸøÿÿÿÿ8™ Ø›1
+k	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÁõÂ8› Ø›1
+p	java:S100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìèÑïÿÿÿÿÿ8 Ø›1
+P
+java:S1172Ÿ"-Remove this unused method parameter "tenMon".(ìèÑïÿÿÿÿÿ8 Ø›1
+k	java:S100©"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Êñò8 Ø›1
+p	java:S100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¿–øÿÿÿÿ8Ÿ Ø›1
+k	java:S100¼"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÛÒ’8  Ø›1
+k	java:S100È"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿üâÕ8¢ Ø›1
+k	java:S100Û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â“À8¤ Ø›1
+k	java:S100å"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şëµÔ8¥ Ø›1
+j	java:S100ï"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÀP8¥ Ø›1
+k	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë†‡¼8§ Ø›1
+c
+java:S1858‰"F"sdt" is already a string, there's no need to call "toString()" on it.(»…V8¨ Ø›1
+f
+java:S1858Š"H"email" is already a string, there's no need to call "toString()" on it.(™‹ğ¦8¨ Ø›1
+k	java:S100•"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹â¬ö8© Ø›1
+j	java:S100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›™íz8ª Ø›1
+p	java:S100Ù"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¤úÛúÿÿÿÿ8® Ø›1
+`
+java:S1172Ù"=Remove these unused method parameters "id_kh", "id_thu_ngan".(®¤úÛúÿÿÿÿ8¯ Ø›1
+p	java:S100•"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¶¢÷ûÿÿÿÿ8´ Ø›1
+p	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¬”´şÿÿÿÿ8¶ Ø›1
+[	java:S106£"9Replace this use of System.out or System.err by a logger.(ÇÒææùÿÿÿÿ8¸ Ø›1
+P
+java:S6126µ"2Replace this String concatenation with Text block.(Ü­³Ö8º Ø›1
+P
+java:S6126Â"2Replace this String concatenation with Text block.(Ë¨ı¨8» Ø›1
+P
+java:S6126Ğ"2Replace this String concatenation with Text block.(÷Å¼œ8¼ Ø›1
+d
+java:S1126÷"AReplace this if-then-else statement by a single return statement.(ñÆ†”ÿÿÿÿÿ8¼ Ø›1
+[	java:S106€"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8½ Ø›1
+k	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îû§8½ Ø›1
+k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰‘¨8¿ Ø›1
+p	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Éö­úÿÿÿÿ8À Ø›1
+k	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸùòÃ8À Ø›1
+p	java:S100»"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅØç¹üÿÿÿÿ8Â Ø›1
+P
+java:S6126Ó"2Replace this String concatenation with Text block.(Ìä”¼8Ä Ø›1
+P
+java:S6126à"2Replace this String concatenation with Text block.(Ìä”¼8Ä Ø›1

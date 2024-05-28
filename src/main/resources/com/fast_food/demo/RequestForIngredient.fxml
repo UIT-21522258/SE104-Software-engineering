@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1600.0" styleClass="bg-white" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fast_food.demo.RequestForIngredientController">
+   <children>
+      <HBox prefHeight="1004.0" prefWidth="1600.0" spacing="10.0">
+         <children>
+            <ScrollPane prefHeight="960.0" prefWidth="351.0">
+               <content>
+                  <TableView fx:id="table_nguyenlieu" prefHeight="1106.0" prefWidth="355.0" styleClass="table_food" stylesheets="@../../../css/dashboardStyle.css">
+                     <columns>
+                        <TableColumn fx:id="tablecolumn_id" prefWidth="92.0" styleClass="drop_shadow" text="STT" />
+                        <TableColumn fx:id="tablecolumn_tenlistnl" prefWidth="261.0" styleClass="drop_shadow" text="Tên Nguyên Liệu" />
+                     </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </content>
+            </ScrollPane>
+            <VBox spacing="10.0">
+               <children>
+                  <VBox prefHeight="444.0" prefWidth="497.0" styleClass="bg-white-upper" stylesheets="@../../../css/Admin.css">
+                     <children>
+                        <Label fx:id="label_mode" styleClass="text-header" text="Bổ sung chi tiết">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" spacing="10.0">
+                           <children>
+                              <Label styleClass="text-normal" text="Tên nguyên liệu: " />
+                              <Label fx:id="label_ten_nl" styleClass="text-normal-plus" text="Tên nguyên liệu: " />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" spacing="10.0">
+                           <children>
+                              <Label styleClass="text-normal" text="Đơn vị:" />
+                              <Label fx:id="label_don_vi" styleClass="text-normal-plus" text="Đơn vị:" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" spacing="10.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <children>
+                              <Label styleClass="text-normal" text="Giá:" />
+                              <Label fx:id="label_gia" styleClass="text-normal-plus" text="Giá trên 1:" />
+                           </children>
+                        </HBox>
+                        <HBox spacing="10.0">
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                           <children>
+                              <Label styleClass="text-normal" text="Tổng tiền:">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="label_tongtien" styleClass="text-normal-plus" text="Tổng tiền:">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Text fx:id="texterror_validator_tennl" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="text validator" />
+                        <Label styleClass="text-normal" text="Số lượng">
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TextField fx:id="textfield_soluong" styleClass="text-field-style" />
+                        <Text fx:id="texterror_validator_soluong" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="text validator">
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Label styleClass="text-normal" text="Chọn nhà cung cấp" />
+                        <ChoiceBox fx:id="choicebox_nhacungcap" prefHeight="44.0" prefWidth="668.0" styleClass="custom-choice-box" />
+                        <Text fx:id="texterror_validator_nhacungcap" layoutX="30.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="text validator">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Text>
+                        <HBox alignment="CENTER" spacing="10.0">
+                           <children>
+                              <HBox fx:id="button_xoanguyenlieu" prefWidth="458.0">
+                                 <children>
+                                    <TextField fx:id="textfield_xoa_nl" alignment="CENTER" prefHeight="44.0" prefWidth="582.0" promptText="nhập tên NL cần xóa" style="-fx-border-width: 2px;">
+                                       <styleClass>
+                                          <String fx:value="text_field_form_employee" />
+                                          <String fx:value="text-button" />
+                                          <String fx:value="text_field_delete_employee" />
+                                       </styleClass>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox fx:id="button_themnguyenlieu" alignment="CENTER" prefHeight="44.0" prefWidth="475.0" styleClass="button-add">
+                                 <children>
+                                    <Label fx:id="label_them_chinh_sua_nl" prefHeight="40.0" prefWidth="174.0" style="-fx-pref-width: -1;" styleClass="text-button" text="Thêm nguyên liệu" textFill="#4f46e5">
+                                       <padding>
+                                          <Insets bottom="8.0" top="8.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="160.0" prefWidth="472.0" styleClass="bg-white-upper" stylesheets="@../../../css/Admin.css">
+                     <children>
+                        <Label fx:id="label_mode1" styleClass="text-header" text="Thông tin phiếu yêu cầu">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Label styleClass="text-normal" text="TỔNG TIỀN: " />
+                              <Label fx:id="text_total" styleClass="text-normal-plus" text="TỔNG TIỀN: " textFill="RED" />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="button_hoantat" alignment="CENTER" prefHeight="50.0" prefWidth="409.0" styleClass="button-style-2">
+                           <children>
+                              <Label styleClass="text-header" text="Hoàn tất">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <padding>
+                                    <Insets bottom="8.0" top="8.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <ScrollPane prefHeight="960.0" prefWidth="687.0">
+               <content>
+                  <TableView fx:id="table_phieunguyenlieu" prefHeight="1106.0" prefWidth="688.0" styleClass="table_food" stylesheets="@../../../css/dashboardStyle.css">
+                     <columns>
+                        <TableColumn fx:id="tablecolumn_tennl" prefWidth="172.0" styleClass="drop_shadow" text="Tên nguyên liệu" />
+                        <TableColumn fx:id="tablecolumn_soluong" prefWidth="392.0" styleClass="drop_shadow" text="Số lượng" />
+                        <TableColumn fx:id="tablecolumn_nhacungcap" prefWidth="392.0" styleClass="drop_shadow" text="Nhà cung cấp" />
+                     </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </content>
+            </ScrollPane>
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <stylesheets>
+      <URL value="@../../../css/Admin.css" />
+      <URL value="@../../../css/dashboardStyle.css" />
+      <URL value="@../../../css/managementStyle.css" />
+   </stylesheets>
+</VBox>

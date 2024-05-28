@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="label_nguoi_ql" prefHeight="1000.0" prefWidth="1600.0" stylesheets="@../../../css/managementStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fast_food.demo.EmployeesManagementController">
+   <children>
+      <HBox prefHeight="76.0" prefWidth="1500.0">
+         <children>
+            <HBox prefHeight="76.0" prefWidth="1038.0">
+               <children>
+                  <HBox prefHeight="76.0" prefWidth="276.0">
+                     <children>
+                        <Label prefHeight="76.0" prefWidth="78.0" text="Tổng">
+                           <font>
+                              <Font name="Montserrat Regular" size="21.0" />
+                           </font>
+                           <padding>
+                              <Insets right="10.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="text_tong_nv" prefHeight="76.0" prefWidth="22.0" style="-fx-pref-width: -1;" text="x">
+                           <font>
+                              <Font name="Montserrat Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="127.0" text="nhân viên">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="Montserrat Regular" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="76.0" prefWidth="819.0">
+                     <children>
+                        <TextField fx:id="textfield_tim_kiem_nv" prefHeight="44.0" prefWidth="632.0" promptText="Tìm kiếm theo tên" style="-fx-font-size: 19;" stylesheets="@../../../css/managementStyle.css">
+                           <font>
+                              <Font name="Montserrat Regular" size="18.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="custom-choice-box" />
+                              <String fx:value="drop_shadow" />
+                           </styleClass>
+                        </TextField>
+                        <Pane prefHeight="76.0" prefWidth="27.0" />
+                        <ChoiceBox fx:id="choicebox_searchtype" prefHeight="44.0" prefWidth="115.0" styleClass="custom-choice-box" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <Pane prefHeight="76.0" prefWidth="31.0" />
+            <HBox fx:id="button_them_nv" alignment="CENTER" prefHeight="46.0" prefWidth="501.0" spacing="5.0" styleClass="button_add_employee">
+               <children>
+                  <Label text="THÊM NHÂN VIÊN">
+                     <font>
+                        <Font name="Montserrat Black" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="42.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/tick-dynamic-gradient.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="15.0" left="20.0" right="10.0" top="15.0" />
+               </HBox.margin>
+            </HBox>
+         </children></HBox>
+      <HBox prefHeight="709.0" prefWidth="1500.0" spacing="15.0">
+         <children>
+            <TableView fx:id="employee_list" editable="true" prefHeight="312.0" prefWidth="1134.0" stylesheets="@../../../css/managementStyle.css">
+               <columns>
+                  <TableColumn fx:id="ten" prefWidth="148.0" styleClass="drop_shadow" text="Họ và tên" />
+                  <TableColumn fx:id="chuc_vu" minWidth="0.0" prefWidth="99.0" styleClass="drop_shadow" text="Chức vụ" />
+                  <TableColumn fx:id="sdt" minWidth="0.0" prefWidth="232.0" styleClass="drop_shadow" text="Số điện thoại" />
+                  <TableColumn fx:id="luong" minWidth="0.0" prefWidth="142.0" styleClass="drop_shadow" text="Lương" />
+                  <TableColumn fx:id="nguoi_quan_ly" minWidth="0.0" prefWidth="240.0" styleClass="drop_shadow" text="Người quản lý" />
+               </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="text-normal" />
+                  <String fx:value="table_employees" />
+               </styleClass>
+            </TableView>
+            <VBox prefHeight="705.0" prefWidth="541.0" spacing="5.0" styleClass="background-form_submit">
+               <children>
+                  <Label fx:id="text_csua_them" prefHeight="32.0" prefWidth="451.0" styleClass="text-header" text="Chỉnh sửa thông tin nhân viên" textAlignment="CENTER" />
+                  <TextField fx:id="textfiel_ho_va_ten" prefHeight="21.0" prefWidth="451.0" promptText="Họ và tên" styleClass="text_field_form_employee" stylesheets="@../../../css/managementStyle.css">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Montserrat Regular" size="18.0" />
+                     </font>
+                  </TextField>
+                  <Text fx:id="text_error_validator_name" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="Họ và tên phải lớn hơn 10 và bé hơn 50 kí tự" />
+                  <TextField fx:id="textfield_sdt" prefHeight="44.0" prefWidth="436.0" promptText="Số điện thoại" styleClass="text_field_form_employee" stylesheets="@../../../css/managementStyle.css">
+                     <font>
+                        <Font name="Montserrat Regular" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Text fx:id="text_error_validator_sdt" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="Sai định dạng số điện thoại" />
+                  <TextField fx:id="textfiel_luong" prefHeight="44.0" prefWidth="436.0" promptText="Lương" styleClass="text_field_form_employee" stylesheets="@../../../css/managementStyle.css">
+                     <font>
+                        <Font name="Montserrat Regular" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Text fx:id="text_error_validator_luong" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="Sai định dạng lương" />
+                  <Text fx:id="t_chuc_vu" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Chức vụ">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Text>
+                  <ChoiceBox fx:id="choicebox_chuc_vu" prefHeight="38.0" prefWidth="517.0" styleClass="custom-choice-box" />
+                  <Text fx:id="text_error_validator_chuc_vu" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="Chức vụ đang bị bỏ trống" />
+                  <Text fx:id="text_ng_quan_ly" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-normal" text="Người quản lý">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Text>
+                  <ChoiceBox fx:id="choicebox_nguoi_quan_ly" prefHeight="40.0" prefWidth="555.0" styleClass="custom-choice-box" />
+                  <Text fx:id="text_error_validator_nguoi_ql" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error_text_validator" text="Người quản lý đang bị bỏ trống" />
+                  <Pane prefHeight="200.0" prefWidth="451.0" styleClass="text-normal" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Pane>
+                  <HBox fx:id="button_delete" alignment="CENTER" prefHeight="48.0" prefWidth="436.0" spacing="5.0" style="-fx-background-color: red;" styleClass="button-delete">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label text="XÓA NHÂN VIÊN" textFill="WHITE">
+                           <font>
+                              <Font name="Montserrat Black" size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="button_submit" alignment="CENTER" prefHeight="48.0" prefWidth="436.0" spacing="5.0" styleClass="button_submit">
+                     <children>
+                        <Label text="HOÀN TẤT" textFill="WHITE">
+                           <font>
+                              <Font name="Montserrat Black" size="19.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="42.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/tick-dynamic-gradient.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="10.0" right="10.0" />
+               </HBox.margin></VBox>
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

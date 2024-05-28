@@ -1,0 +1,301 @@
+.text-header {
+  -fx-font-family: "Montserrat";
+  -fx-font-size: 22px;
+  -fx-font-weight: bold;
+}
+
+.text-header-1 {
+  -fx-font-family: "Montserrat ExtraBold";
+  -fx-font-size: 30px;
+  -fx-font-weight: bold;
+}
+
+.root {
+  -fx-font-family: "Montserrat";
+}
+
+.text-normal {
+  -fx-font-family: "Montserrat";
+  -fx-font-size: 20px;
+  -fx-font-weight: normal;
+}
+
+.text-normal-plus {
+  -fx-font-family: "Montserrat";
+  -fx-font-size: 20px;
+  -fx-font-weight: bold;
+}
+
+.button-edit {
+  -fx-background-radius: 100;
+  fx-font-family: "Montserrat";
+  -fx-font-size: 25px;
+}
+
+.text-field {
+  -fx-background-radius: 100;
+  fx-font-family: "Montserrat";
+  -fx-font-size: 20px;
+  -font-weight: bold;
+}
+
+.button-delete {
+  -fx-background-radius: 100;
+  fx-font-family: "Montserrat";
+  -fx-font-size: 25px;
+}
+
+.background-employee {
+  -fx-background-radius: 50;
+  -fx-background-color: #f8717140;
+}
+
+.background-food {
+  -fx-background-radius: 50;
+  -fx-background-color: #fb923c50;
+}
+
+.border-bottom-thu{
+-fx-border-color: #316aff;
+-fx-border-width: 0 0 2 0;
+}
+
+.border-bottom-chi{
+-fx-border-color: #ff8110;
+-fx-border-width: 0 0 2 0;
+}
+
+.background-order {
+  -fx-background-radius: 50;
+  -fx-background-color: #fb923c40;
+}
+
+.button_orange {
+  -fx-background-color: #FC4F00;
+  -fx-background-radius: 10;
+  -fx-padding: 2 2 2 2;
+  -fx-font-weight: bold;
+}
+.background-ingredient {
+  -fx-background-radius: 50;
+  -fx-background-color: #c2410c40;
+}
+
+.background-unknow {
+  -fx-background-radius: 50;
+  -fx-background-color: #eab30840;
+}
+
+
+.background-form_submit {
+  -fx-background-radius: 30;
+  -fx-background-color: #fff;
+  -fx-effect: dropshadow(three-pass-box, #e3b1fb, 20, 0, 0, 0);
+}
+
+.text_field_form_employee {
+  -fx-background-color: #fff;
+  -fx-border-radius: 50;
+  -fx-border-color: blue;
+  -fx-font-size: 17px;
+  -fx-min-height: 44px;
+  -fx-font-family: "Montserrat";
+}
+
+.text_field_delete_employee {
+  -fx-prompt-text-fill: #dc262670;
+  -fx-text-fill: #dc2626;
+  -fx-border-color: red;
+}
+
+.text_button {
+  fx-font-family: "Montserrat Black";
+  -fx-font-size: 18px;
+}
+
+.button_submit {
+  -fx-background-color: #3b82f6;
+  -fx-background-radius: 50;
+}
+
+.prompt_text_field {
+  -fx-prompt-text-fill: rgba(0, 0, 0, 0.9);
+}
+
+.text_field_input {
+  -fx-background-color: #ffffff50;
+  -fx-font-family: "Fira Code Medium";
+  -fx-font-weight: bold;
+  -fx-font-size: 20;
+  -fx-background-radius: 50;
+}
+.table_employees {
+  -fx-font-family: "Montserrat";
+  -fx-font-size: 13pt;
+  -fx-background-color: transparent;
+}
+
+.table_employees .column-header {
+  -fx-font-size: 12pt;
+  -fx-font-weight: bold;
+  -fx-background-color: #ffffff;
+}
+
+.table_employees .table-row-cell {
+  -fx-alignment: center;
+}
+
+.table_employees .column-header-background .text-field {
+  -fx-background-color: #f2f2f2;
+  -fx-background-radius: 5px;
+  -fx-border-radius: 5px;
+  -fx-border-color: #ccc;
+}
+
+.table_employees .scroll-bar:vertical {
+  -fx-background-insets: -1;
+}
+
+.table_employees .scroll-bar:horizontal {
+  -fx-background-insets: -1;
+}
+
+.table_employees .table-cell {
+  -fx-border-color: #ccc;
+  -fx-border-width: 0.5px;
+}
+
+.table_employees .header {
+  -fx-background-color: #87ceeb;
+  -fx-background-insets: 0, 1, 2;
+  -fx-opacity: 1;
+}
+
+.table_employees .header .label {
+  -fx-text-fill: white;
+}
+
+.table_employees .table-row-cell:selected .table-cell {
+  -fx-text-fill: #de8a96;
+  -fx-background-color: #fff;
+}
+
+
+
+
+
+.button_add_employee {
+  -fx-background-color: #fff;
+  -fx-border-radius: 59px;
+  -fx-border-color: #8b64fc;
+  -fx-border-width: 2px;
+}
+
+.custom-choice-box {
+  -fx-background-color: #fff;
+  -fx-background-radius: 50px;
+  -fx-text-fill: #6f6af8;
+  -fx-border-color: #6f6af850;
+  -fx-border-width: 2px;
+  -fx-border-radius: 50;
+  -fx-min-height: 44px;
+}
+.custom-choice-box .label {
+  -fx-font-family: "Montserrat";
+  -fx-font-size: 18px;
+  -fx-font-weight: normal;
+}
+
+.drop_shadow {
+  -fx-effect: dropshadow(three-pass-box, #e3b1fb, 12, 0, 0, 0);
+}
+
+.error_text_validator {
+  -fx-fill: red;
+  -fx-font-size: 15px;
+}
+
+.neumorphism_effect {
+  -fx-background-radius: 20px;
+  -fx-border-radius: 20px;
+  -fx-font-size: 20px;
+  -fx-text-fill: black;
+  -fx-effect: dropshadow(gaussian, #bebebeb4, 10, 0, 5, 5);
+  -fx-background-color: linear-gradient(to top right, #ececec, #ffffff);
+  -fx-font-size: 18px;
+  -fx-padding: 5px 0 5px 0
+}
+
+/* Set the font family and font size for the TableView */
+.table_order {
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 18px;
+}
+
+/* Set the background color and font weight for the column headers */
+.table_order .column-header {
+    -fx-font-weight: bold;
+    -fx-background-color: #EAE7F8;
+}
+
+.table_order .table-row-cell {
+    -fx-border-color: transparent; /* Màu của đường viền */
+    -fx-border-width: 0 0 5px 0; /* Độ rộng của đường viền */
+    -fx-border-insets: 0 0 -5px 0; /* Điều chỉnh vị trí của đường viền */
+    -fx-border-radius: 10px;
+   -fx-border-radius: 10px
+
+}
+
+.table_order .column-header .label {
+    -fx-text-fill:  #8C82BE; /* Đặt màu chữ của bạn ở đây */
+}
+
+/* Set the alignment for table cells */
+.table_order .table-cell {
+    -fx-alignment: center;
+}
+
+/* Set the background color for even table rows */
+.table_order .table-row-cell:even {
+    -fx-background-color: #f9f9f9;
+}
+
+/* Set the background color for hovered table rows */
+.table_order .table-row-cell:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+/* Set the background color and text fill for selected table rows */
+.table_order .table-row-cell:selected {
+    -fx-background-color: #c0c0c0;
+    -fx-text-fill: white;
+}
+
+/* Set the border color and width for table cells */
+.table_order .table-cell {
+     -fx-border-color: transparent transparent transparent transparent;
+     -fx-border-width: 0 0 1px 0;
+     -fx-border-style: solid;
+}
+
+/* Set the padding for table cells */
+.table_order .table-cell {
+    -fx-padding: 0.3em 0.5em;
+}
+
+
+
+.table_order .scroll-bar:vertical {
+  -fx-background-insets: -1;
+}
+
+.table_order .scroll-bar:horizontal {
+  -fx-background-insets: -1;
+}
+
+.scroll-pane {
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,92 @@
+
+h	java:S112©"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ã˜Å“1
+h	java:S112µ"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ä˜Å“1
+h	java:S112È"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ä˜Å“1
+h	java:S112ê"FDefine and throw a dedicated exception instead of using a generic one.(Ì¬Ë÷üÿÿÿÿ8ä˜Å“1
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ä˜Å“1
+h	java:S112²"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ä˜Å“1
+{
+java:S2293Z"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ”ææşÿÿÿÿ8å˜Å“1
+„
+java:S1319I"gThe type of "order_list" should be an interface such as "Set" rather than the implementation "HashSet".(–¯“‘8æ˜Å“1
+ƒ
+java:S1319K"fThe type of "menu_list" should be an interface such as "Set" rather than the implementation "HashSet".(üÅ¦8æ˜Å“1
+
+java:S1319“"aThe type of "menu" should be an interface such as "Set" rather than the implementation "HashSet".(É‰àû8æ˜Å“1
+l	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó±£8æ˜Å“1
+m	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó±£8æ˜Å“1
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™èŒÇ8æ˜Å“1
+s	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Ã¤„şÿÿÿÿ8ç˜Å“1
+n	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘åïû8ç˜Å“1
+n	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÙó¤8ç˜Å“1
+n	java:S117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ûãª8ç˜Å“1
+s	java:S117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ñë—øÿÿÿÿ8ç˜Å“1
+?
+java:S1643›"Use a StringBuilder instead.(ŒË§”úÿÿÿÿ8ç˜Å“1
+?
+java:S1643œ"Use a StringBuilder instead.(û÷ˆ´şÿÿÿÿ8ç˜Å“1
+y
+java:S1104G"WMake render_type a static final constant or non-public and provide accessors if needed.(µ×®Ôùÿÿÿÿ8ç˜Å“1
+s
+java:S1104I"VMake order_list a static final constant or non-public and provide accessors if needed.(–¯“‘8ç˜Å“1
+r
+java:S1104K"UMake menu_list a static final constant or non-public and provide accessors if needed.(üÅ¦8ç˜Å“1
+p
+java:S1104M"NMake db a static final constant or non-public and provide accessors if needed.(ó¢±‚øÿÿÿÿ8è˜Å“1
+w
+java:S1104O"UMake totalBill a static final constant or non-public and provide accessors if needed.(Çƒ“ùÿÿÿÿ8è˜Å“1
+p
+java:S1104Q"NMake km a static final constant or non-public and provide accessors if needed.(–²õùøÿÿÿÿ8è˜Å“1
+r
+java:S1104T"UMake maxNumber a static final constant or non-public and provide accessors if needed.(ÿµĞ8è˜Å“1
+p
+java:S1104V"NMake uf a static final constant or non-public and provide accessors if needed.(ê×®Ûşÿÿÿÿ8è˜Å“1
+L
+java:S1444T"/Make this "public static maxNumber" field final(ÿµĞ8è˜Å“1
+N
+java:S1153d"1Directly append the argument of String.valueOf().(şñÁµ8é˜Å“1
+r	java:S116$"QRename this field "Submit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬œÖÀüÿÿÿÿ8š˜Å“1
+r	java:S116&"VRename this field "menu_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘•¼õ8š˜Å“1
+s	java:S116)"WRename this field "order_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û†¬8š˜Å“1
+t	java:S116,"SRename this field "bt_drink" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûæ¬Õûÿÿÿÿ8š˜Å“1
+n	java:S1163"RRename this field "bt_food" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àíº‹8š˜Å“1
+v	java:S1166"URename this field "total_bill" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜°ÿ€øÿÿÿÿ8š˜Å“1
+k	java:S116<"ORename this field "T_km" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿö¯8š˜Å“1
+w	java:S116G"VRename this field "render_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ×®Ôùÿÿÿÿ8š˜Å“1
+q	java:S116I"URename this field "order_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–¯“‘8š˜Å“1
+p	java:S116K"TRename this field "menu_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÅ¦8š˜Å“1
+]	java:S125@"<This block of commented-out lines of code should be removed.(èï¡úÿÿÿÿ8êéªÅ“1
+o	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å“±ëøÿÿÿÿ8§˜Å“1
+k	java:S100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙşûÛ8³˜Å“1
+]
+java:S1117‹":Rename "result" which hides the field declared at line 82.(ĞĞî…ıÿÿÿÿ8´˜Å“1
+k	java:S100“"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É‰àû8µ˜Å“1
+p
+java:S3776“"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(É‰àû8¶˜Å“1
+u
+java:S3776Ï"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(•‘İŸüÿÿÿÿ8¼˜Å“1
+J
+java:S1602Ô",Remove useless curly braces around statement(·µÂ8½˜Å“1
+p
+java:S1602Ö"SRemove useless curly braces around statement and then remove useless return keyword(¨”V8¾˜Å“1
+J
+java:S1602Ú",Remove useless curly braces around statement(„øÓÂ8¾˜Å“1
+p
+java:S1602Û"SRemove useless curly braces around statement and then remove useless return keyword(¨”V8¿˜Å“1
+Y
+java:S2696ì"6Make the enclosing method "static" or remove this set.(ÈÏ°§ıÿÿÿÿ8Á˜Å“1
+S
+java:S2696ó"6Make the enclosing method "static" or remove this set.(Ğß¹78Â˜Å“1
+V	java:S106Š"9Replace this use of System.out or System.err by a logger.(ÍëŒæ8Å˜Å“1
+V	java:S106—"9Replace this use of System.out or System.err by a logger.(ğñ¢8Ç˜Å“1
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(–ë‹øÿÿÿÿ8È˜Å“1
+[	java:S106¨"9Replace this use of System.out or System.err by a logger.(‚ûÿÿÿÿ8É˜Å“1
+[	java:S106Ã"9Replace this use of System.out or System.err by a logger.(ÛØØåıÿÿÿÿ8Ì˜Å“1
+[	java:S106Æ"9Replace this use of System.out or System.err by a logger.(‘ş„áúÿÿÿÿ8Ì˜Å“1
+[	java:S106È"9Replace this use of System.out or System.err by a logger.(Êô²ºúÿÿÿÿ8Í˜Å“1
+v
+java:S1602Ì"SRemove useless curly braces around statement and then remove useless return keyword(†Ñë—øÿÿÿÿ8Ï˜Å“1
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8‚™«Å“1
+K
+java:S1128".Remove this unused import 'javafx.scene.Node'.(ÑÖ¬ï8‚™«Å“1
